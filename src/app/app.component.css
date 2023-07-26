@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:host {
+  --primary-color: #d25f1c;
+}
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+}
